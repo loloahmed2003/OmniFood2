@@ -1,0 +1,22 @@
+.infoTable {
+    margin: 50px 100px;
+}
+
+tr, th, td {
+    padding: 10px;
+    color: #fff;
+    font: 18px;
+}
+
+.bg-color th {
+    background-color: aqua;
+}
+
+.salary {
+    font-size: 22px;
+}
+
+.profile {
+    width: 50px;
+    border-radius: 50%;
+}

@@ -1,0 +1,122 @@
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+
+.mealHeader {
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/meal-hero.jpg);
+    background-repeat: no-repeat;
+}
+
+.mealHeader img {
+    width: 100px;
+    margin-right: 100px;
+    float: right;
+}
+
+.mealHeader h1 {
+    margin: 2% 3%;
+    float: left;
+}
+
+.place img {
+    float: left;
+    width: 350px;
+    margin: 0 3% 3% 3%;
+}
+
+.place p {
+    float: right;
+    text-align: left;
+    width: 50%;
+}
+
+.place a:link, .place a:visited {
+    text-decoration: none;
+    color: #e67e22;
+}
+
+
+.place a:hover,
+.place a:active {
+    color: #ff9200;
+}
+
+
+
+/************************************
+/*********** Section-Form ***********
+/***********************************/
+
+
+.section-form {
+/*
+    background-image: url(../images/map.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+*/
+    border-top: 1px solid gray;
+    
+}
+
+
+.map-pic {
+    float: left;
+/*    padding: 150px 0 0 20px;*/
+    text-align: center;
+}
+
+.right-section {
+    background: #fff;
+    opacity: .85;
+    margin: 0;
+    width: 50%;
+    height: inherit;
+    float: right;
+}
+
+.contact-form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 2%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+
+input[type="submit"], .section-form a:link, .section-form a:visited {
+    display: inline-block;
+    padding: 1% 5%;
+    text-decoration: none;
+    border-radius: 200px;
+    border: 1px solid #e67e22;
+    background: #e67e22;
+    color: #fff;
+    font-size: 22px;
+}
+
+input[type="submit"]:active,
+input[type="submit"]:hover,
+.section-form a:hover,
+.section-form a:active
+{
+    background: #ff9200;
+}
+
+/*
+
+.section-form a {
+float: right;
+}*/
